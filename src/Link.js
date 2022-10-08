@@ -10,7 +10,7 @@ function Links() {
                 <Link to="/queue" className="border p-2 m-2 text-3xl hover:text-blue-600 text-white">Queue</Link>
                 <Link to="/colorChange" className="border p-2 m-2 text-3xl hover:text-blue-600 text-white">ColorChange</Link>
                 <Link to="/effect" className="border p-2 m-2 text-3xl hover:text-blue-600 text-white">useEffect</Link>
-                <Link to="/timer" className="border p-2 m-2 text-3xl hover:text-blue-600 text-white">Timer</Link>
+                
             
             </div>
         </div>

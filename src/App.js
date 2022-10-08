@@ -9,8 +9,7 @@ import Time from './Time';
 import Queue from './Queue';
 import Effect from './Effect';
 import ColorChange from './ColorChange';
-import Timer from `./Timer`;
-function App() {
+
     return (
         <div className="App">
             <Routes>
@@ -21,7 +20,6 @@ function App() {
                 <Route path="/queue" element={<Queue />} />
                 <Route path="/effect" element={<Effect />} />
                 <Route path="/colorChange" element={<ColorChange/>} />
-                <Route path="/timer" element={<Timer/>} 
             </Routes>
        
         </div>
