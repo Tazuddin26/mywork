@@ -51,9 +51,9 @@ function Form1() {
                     onClick={submit}
                     type="button"
                     className="w-[20%] h-[10%] hover:bg-red-400 bg-yellow-400 border rounded-md m-3">Submit</button>
-              <p>{JSON.stringify(users)}</p>
+                <p>{JSON.stringify(users)}</p>
             </div>
-          
+
         </div>
     )
 };
