@@ -9,7 +9,7 @@ import Time from './Time';
 import Queue from './Queue';
 import Effect from './Effect';
 import ColorChange from './ColorChange';
-
+function App (){
     return (
         <div className="App">
             <Routes>

@@ -3,19 +3,27 @@ import { useState } from "react";
 function ColorChange() {
     const [colorIndex, setColorIndex] = useState(0);
     
+    let colorName;
     let backgroundColor;
-    if (colorIndex === 0) {
+      
+    if (colorIndex  === 0) {
         backgroundColor = "bg-green-600";
+        colorName = "green";
     } else if (colorIndex === 2) {
         backgroundColor = "bg-pink-300";
+        colorName = "Pink";
     } else if (colorIndex == 4) {
         backgroundColor = "bg-yellow-500";
+        colorName = "Yellow";
     } else if (colorIndex === 6) {
         backgroundColor = "bg-red-400";
+        colorName = "Red";
     } else {
         backgroundColor = "bg-orange-500";
+        colorName = "Orange";
     }
     const left = `w-[50%] h-full ${backgroundColor}`;
+    
 
     let backgroundColor1;
     if (colorIndex == 1) {
@@ -32,7 +40,7 @@ function ColorChange() {
     const right = `w-[50%] h-full ${backgroundColor1}`;
     return (
         <div className="w-full h-screen flex">
-            <div className={left}> green</div>
+            <div className={left}>{colorName}</div>
             <div className="w-[30%] h-full bg-stone-600 ">
                 <button
                     type="button"
